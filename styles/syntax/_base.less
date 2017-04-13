@@ -12,19 +12,19 @@
 .syntax--entity {
 
   &.syntax--name.syntax--type {
-    color: @hue-6-2;
+    color: @orange-light;
   }
 
   &.syntax--other.syntax--inherited-class {
-    color: @hue-4;
+    color: @green;
   }
 }
 
 .syntax--keyword {
-  color: @hue-3;
+  color: @purple;
 
   &.syntax--control {
-    color: @hue-3;
+    color: @purple;
   }
 
   &.syntax--operator {
@@ -32,21 +32,21 @@
   }
 
   &.syntax--other.syntax--special-method {
-    color: @hue-2;
+    color: @blue;
   }
 
   &.syntax--other.syntax--unit {
-    color: @hue-6;
+    color: @orange;
   }
 }
 
 .syntax--storage {
-  color: @hue-3;
+  color: @purple;
 
   &.syntax--type {
     &.syntax--annotation,
     &.syntax--primitive {
-      color: @hue-3;
+      color: @purple;
     }
   }
 
@@ -59,34 +59,34 @@
 }
 
 .syntax--constant {
-  color: @hue-6;
+  color: @orange;
 
   &.syntax--variable {
-    color: @hue-6;
+    color: @orange;
   }
 
   &.syntax--character.syntax--escape {
-    color: @hue-1;
+    color: @cyan;
   }
 
   &.syntax--numeric {
-    color: @hue-6;
+    color: @orange;
   }
 
   &.syntax--other.syntax--color {
-    color: @hue-1;
+    color: @cyan;
   }
 
   &.syntax--other.syntax--symbol {
-    color: @hue-1;
+    color: @cyan;
   }
 }
 
 .syntax--variable {
-  color: @hue-5;
+  color: @mono-1;
 
   &.syntax--interpolation {
-    color: @hue-5-2;
+    color: @red-light;
   }
 
   &.syntax--parameter {
@@ -95,19 +95,19 @@
 }
 
 .syntax--string {
-  color: @hue-4;
+  color: @green;
 
 
   &.syntax--regexp {
-    color: @hue-1;
+    color: @cyan;
 
     .syntax--source.syntax--ruby.syntax--embedded {
-      color: @hue-6-2;
+      color: @orange-light;
     }
   }
 
   &.syntax--other.syntax--link {
-    color: @hue-5;
+    color: @red;
   }
 }
 
@@ -128,23 +128,23 @@
 
     &.syntax--heading,
     &.syntax--identity {
-      color: @hue-2;
+      color: @blue;
     }
 
     &.syntax--bold {
-      color: @hue-6-2;
+      color: @orange-light;
       font-weight: bold;
     }
 
     &.syntax--italic {
-      color: @hue-3;
+      color: @purple;
       font-style: italic;
     }
   }
 
   &.syntax--section {
     &.syntax--embedded {
-      color: @hue-5-2;
+      color: @red-light;
     }
 
     &.syntax--method,
@@ -156,54 +156,54 @@
 }
 
 .syntax--support {
+  color: @red;
   &.syntax--class {
-    color: @hue-6-2;
+    color: @orange-light;
   }
 
   &.syntax--type {
-    color: @hue-1;
+    color: @cyan;
   }
 
   &.syntax--function  {
-    color: @hue-1;
+    color: @cyan;
 
     &.syntax--any-method {
-      color: @hue-2;
+      color: @blue;
     }
   }
 }
 
 .syntax--entity {
   &.syntax--name.syntax--function {
-    color: @hue-2;
+    color: @blue;
   }
 
   &.syntax--name.syntax--class,
   &.syntax--name.syntax--type.syntax--class {
-    color: @hue-6-2;
+    color: @orange-light;
   }
 
   &.syntax--name.syntax--section {
-    color: @hue-2;
+    color: @blue;
   }
 
   &.syntax--name.syntax--tag {
-    color: @hue-5;
+    color: @red;
   }
 
   &.syntax--other.syntax--attribute-name {
-    color: @hue-6;
+    color: @orange;
 
     &.syntax--id {
-      color: @hue-2;
+      color: @blue;
     }
   }
 }
 
 .syntax--meta {
   &.syntax--class {
-    color: @hue-6-2;
-
+    // color: @orange-light;
     &.syntax--body {
       color: @mono-1;
     }
@@ -216,20 +216,20 @@
 
   &.syntax--definition {
     &.syntax--variable {
-      color: @hue-5;
+      color: @cyan;
     }
   }
 
   &.syntax--link {
-    color: @hue-6;
+    color: @orange;
   }
 
   &.syntax--require {
-    color: @hue-2;
+    color: @blue;
   }
 
   &.syntax--selector {
-    color: @hue-3;
+    color: @purple;
   }
 
   &.syntax--separator {
@@ -260,49 +260,52 @@
     background-color: @syntax-illegal-bg !important;
   }
 }
+.syntax--this {
+  color: @cyan;
+}
 
 // Languages -------------------------------------------------
 
 .syntax--markup {
   &.syntax--bold {
-    color: @hue-6;
+    color: @orange;
     font-weight: bold;
   }
 
   &.syntax--changed {
-    color: @hue-3;
+    color: @purple;
   }
 
   &.syntax--deleted {
-    color: @hue-5;
+    color: @red;
   }
 
   &.syntax--italic {
-    color: @hue-3;
+    color: @purple;
     font-style: italic;
   }
 
   &.syntax--heading {
-    color: @hue-5;
+    color: @red;
 
     .syntax--punctuation.syntax--definition.syntax--heading {
-      color: @hue-2;
+      color: @blue;
     }
   }
 
   &.syntax--link {
-    color: @hue-1;
+    color: @cyan;
   }
 
   &.syntax--inserted {
-    color: @hue-4;
+    color: @green;
   }
 
   &.syntax--quote {
-    color: @hue-6;
+    color: @orange;
   }
 
   &.syntax--raw {
-    color: @hue-4;
+    color: @green;
   }
 }
