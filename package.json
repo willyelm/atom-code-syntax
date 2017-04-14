@@ -1,7 +1,7 @@
 {
   "name": "xatom-syntax",
   "theme": "syntax",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "A dark syntax theme to combine with for xatom-ui",
   "keywords": [
     "dark",
