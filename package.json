@@ -1,16 +1,17 @@
 {
-  "name": "xatom-syntax",
+  "name": "atom-code-syntax",
   "theme": "syntax",
   "version": "0.3.0",
-  "description": "A dark syntax theme to combine with for xatom-ui",
+  "description": "A dark syntax theme to combine with Atom Code",
   "keywords": [
     "dark",
     "blue",
     "syntax",
-    "xatom",
+    "atom",
+    "code",
     "willyelm"
   ],
-  "repository": "https://github.com/willyelm/xatom-syntax",
+  "repository": "https://github.com/willyelm/atom-code-syntax",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
